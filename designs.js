@@ -1,6 +1,8 @@
 const sizePicker = document.querySelector('#sizePicker');
 const pixelCanvas = document.querySelector('#pixelCanvas');
 
+//This function creates a grid with the height and width from the users input.
+//Once we have the grid we will listen for a mousedown and color the cells.
 
 function makeGrid() {
   let gridHeight = document.querySelector('#inputHeight').value;
